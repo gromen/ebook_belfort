@@ -1,0 +1,270 @@
+@font-face{
+	font-family: "tahoma";
+	src:url('fonts/Tahoma.ttf');
+}
+@font-face{
+	font-family: "tahoma-bold";
+	src:url('fonts/tahomabd.ttf');
+}
+body{
+	font-family: "tahoma" ;
+	line-height: 1.1 !important;
+	color: #000 !important;
+}
+img{
+	max-width: 100%;
+}
+h1{
+	font-weight: 700 !important;
+	font-size: 45px !important;
+}
+a:focus{
+	text-decoration: none !important;
+}
+.modal{
+	display: unset !important;
+}
+/*general*/
+.wrap{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.padding-top-20{
+	padding-top: 20px;
+}
+.margin-20{
+	margin: 20px;
+}
+/*fonts*/
+.size14{
+	font-size: 14px;
+}
+.size18{
+	font-size: 18px;
+}
+.size25{
+	font-size: 25px;
+}
+.size30{
+	font-size: 30px;
+}
+.size47{
+	font-size: 47px;
+}
+.grey-color{
+	color: #808080;
+}
+.yellow-color{
+	color: #FC0;
+}
+.white-color{
+	color: #fff;
+}
+.font-tahoma{
+	font-family: "tahoma";
+}
+.font-tahoma-bold{
+	font-family: "tahoma-bold";
+}
+.showPopup a{
+	cursor:pointer
+}
+/*section-1*/
+#section-1 .button a{
+	margin-bottom: 40px;
+}
+.button{
+	margin-top: 20px;
+}
+
+.button a{
+	border-radius: 15px;
+	border:1px solid #F3D100;
+	padding:12px 24px;
+    background: -webkit-linear-gradient(#FFFB1E  0%, #FD0 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFB1E  0%, #FD0 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFB1E  0%, #FD0 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFB1E  0%, #FD0 100%); /* Standard syntax (must be last) */
+    color: #383838;
+    text-decoration: none;
+}
+/*Exit popup 'X' button */
+.button-exit {
+    background: #F10404;
+    width: 30px;
+    height: 30px;
+    margin: -5px -5px 0px 0px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.close-exit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/*Exit popup 'X' button */
+#section-5 .button a:hover,
+.button a:hover{
+	border: 1px solid #F38000;
+	background: linear-gradient(#FFAA1E 0%, #FF8C00 100%);
+	-moz-background: linear-gradient(#FFAA1E 0%, #FF8C00 100%);
+	-webkit-background: linear-gradient(#FFAA1E 0%, #FF8C00 100%);
+	color: #fff;
+}
+i.fa{
+	margin-right: 8px;
+}
+/*section-2*/
+#section-2{
+	background: #000;
+	width: 100%;
+	color: #fff;
+	line-height: 1.42857;
+}
+.video-container{
+	margin-top: 100px;
+}
+
+/*section-4*/
+#section-4 {
+	line-height: 1.5;
+}
+#section-4 img{
+	margin-top: 50px;
+}
+/*section-5*/
+footer{
+	background: #000;
+	height: auto;
+	padding-bottom: 50px;
+}
+footer .button {
+	padding-top:50px;
+}
+.button a:hover{
+	text-decoration: none !important;
+}
+.www{
+	text-decoration: underline !important;
+}
+a.www:hover{
+	-moz-text-decoration-color: #23527C !important; /* Code for Firefox */
+    text-decoration-color: #23527C !important;
+}
+@media only screen and (max-width: 990px) {
+	.wrap{
+		width: 90% !important;
+		max-width: unset;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-4{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.button{
+		margin: 20px;
+	}
+	.size30{
+		font-size: 20px;
+	}
+	h1{
+		font-size: 34px !important;
+	}
+	.margin-20{
+		margin:10px;
+	}
+	.size25{
+		font-size: 17px;
+	}
+	#section-1 img{
+		max-width: 84%;
+	}
+	#section-4 img{
+		margin:20px;
+	}
+	#section-4 .col-md-4{
+		width: 70%;
+	}
+	.size18{
+		font-size: 16px;
+	}
+	#section-3 .pull-left{
+		float: none !important;
+	}
+	.video-container{
+		margin-top: 50px;
+	}
+	
+
+}
+@media only screen and (max-width: 768px){
+	#section-1 .pull-left,
+	#section-2 .pull-left{
+		float: none !important;
+	}
+	#section-1 .col-md-6,
+	#section-2 .col-md-6{
+		margin: 0 auto;
+		width: 80%;
+	}
+	#section-3 .col-md-4{
+		width: 335px;
+	}
+	.size30{
+		font-size: 16px;
+	}
+	.size25{
+		font-size: 14px;
+	}
+	.size18{
+		font-size: 14px;
+	}
+	footer .button{
+		padding-top: 30px ;
+	}
+	h1{
+		font-size: 29px !important;
+	}
+
+}
+@media only screen and (max-width: 468px){
+	#section-1 .col-md-6, 
+	#section-2 .col-md-6{
+		width: 100%;
+	}
+	#section-3 .col-md-4{
+		width: 90%;
+	}
+	footer{
+		padding-bottom: 25px;
+	}
+	footer .button{
+		padding: 8px ;
+	}
+	.button a{
+		border-radius: 6px;
+		padding: 4px;
+	}
+	.size14{
+		font-size: 11px;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.margin-20{
+		margin: 
+	}
+	#section-1 img{
+		width: 63%;
+	}
+	iframe{
+		max-width: 100% !important;
+	}
+	.padding-top-20{
+		padding-top: 0;
+	}
+
+
+}
