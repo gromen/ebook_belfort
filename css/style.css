@@ -137,7 +137,14 @@ i.fa{
 footer{
 	background: #000;
 	height: auto;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
+}
+footer .h5{
+	color: #fff;
+	padding-top: 120px;
+}
+footer .h5 a{
+	color: #fff;
 }
 footer .button {
 	padding-top:50px;
@@ -197,7 +204,7 @@ a.www:hover{
 	.video-container{
 		margin-top: 50px;
 	}
-	
+
 
 }
 @media only screen and (max-width: 768px){
@@ -231,7 +238,7 @@ a.www:hover{
 
 }
 @media only screen and (max-width: 468px){
-	#section-1 .col-md-6, 
+	#section-1 .col-md-6,
 	#section-2 .col-md-6{
 		width: 100%;
 	}
@@ -254,7 +261,7 @@ a.www:hover{
 		margin: 0 auto;
 	}
 	.margin-20{
-		margin: 
+		margin:
 	}
 	#section-1 img{
 		width: 63%;
